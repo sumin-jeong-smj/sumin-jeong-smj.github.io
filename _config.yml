@@ -246,7 +246,7 @@ pagination:
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0
-  sort_field: 'date'
+  # sort_field: 'date'
   sort_reverse: true
   category: 'posts'
   tag: ''
@@ -319,7 +319,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
