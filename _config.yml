@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Sumin Jeong"
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sumin Jeong"
 description              : "Sumin Jeong's website."
@@ -26,9 +26,9 @@ url                      : "https://sumin-jeong-smj.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # "/assets/images/poster.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Sumin Jeong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Project list"
   location         : "Seoul, Korea"
   email            :
@@ -211,12 +211,13 @@ incremental: false
 kramdown:
   input: GFM
   hard_wrap: false
-  auto_ids: true
+  auto_ids: false
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  attribute_list: true
 
 
 # Sass/SCSS
@@ -246,7 +247,7 @@ pagination:
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0
-  # sort_field: 'date'
+  sort_field: 'date'
   sort_reverse: true
   category: 'posts'
   tag: ''
@@ -290,16 +291,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -323,3 +324,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: false
