@@ -13,7 +13,7 @@ classes: photo-page
 
 1st Asia-Pacific Bioinformatics Joint Conference, Okinawa, Japan
 
-   ![image-apbjc]({{site.url}}\images\apbjc.jpg)
+   ![image-apbjc]({{site.url}}\images\apbjc.jpg)   ![image-apbjc_booth]({{site.url}}\images\apbjc_booth.jpg)
 
    [Poster presentation] Q-omics: AI Platform for Consensus Analysis of Multimodal Omics Data
 
