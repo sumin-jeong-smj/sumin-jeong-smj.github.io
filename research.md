@@ -34,7 +34,7 @@ classes: photo-page
 
   - Identifying nucleic acid therapeutics targeting high-risk viral genomes
 
-    ![image-qstrain_msa]({{site.url}}\images\qstrain_msa.png)![image-qstrain_hmlg]({{site.url}}\images\qstrain_hmlg.png)
+    ![image-qstrain_msa]({{site.url}}\images\qstrain_msa.png)   ![image-qstrain_hmlg]({{site.url}}\images\qstrain_hmlg.png)
     ![image-qstrain_rna]({{site.url}}\images\qstrain_rna.png)![image-qstrain_structure]({{site.url}}\images\qstrain_structure.png)
 
   - Constructed a database for 54 virus subtypes from multiple sequence alignment & next-generation sequencing.
