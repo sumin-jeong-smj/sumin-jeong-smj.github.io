@@ -4,7 +4,7 @@ title: "Research"
 # permalink: /publications/
 no_title_link: true
 
-classes: photo-page2
+classes: photo-page
 ---
 
 ### **Bioinformatic Platform Development** 
